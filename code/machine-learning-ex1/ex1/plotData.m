@@ -16,9 +16,9 @@ figure; % open a new figure window
 %       appear as red crosses. Furthermore, you can make the
 %       markers larger by using plot(..., 'rx', 'MarkerSize', 10);
 
-
-
-
+plot(x,y,'rx','MarkerSize',10); %Plot the training data into a figure and mark each point with red cross
+xlabel('population'); %Set the axes X labels
+ylabel('profit'); %Set the axes Y labels
 
 % ============================================================
 
